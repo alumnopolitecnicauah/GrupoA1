@@ -7,7 +7,7 @@ uint8_t C[3][2]={24,25,26,27,28,29};
 
 // Almacenamiento de resultado
 uint8_t Suma[4][3];
-uint8_t Producto[3][3];
+uint8_t Producto[4][2];
 int main(){
 
 
@@ -22,7 +22,7 @@ for(i=0;i<4;i++)
 
 //Realizo el producto de AxC
 for(i=0;i<4;i++)
-	for(j=0;j<3;j++)
+	for(j=0;j<2;j++)
 		for(k=0;k<3;k++)
 			Producto[i][j]=Producto[i][j]+A[i][k]*C[k][j];
 
