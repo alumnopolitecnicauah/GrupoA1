@@ -7,7 +7,7 @@ uint8_t C[3][2]={24,25,26,27,28,29};
 
 // Almacenamiento de resultado
 uint8_t Suma[4][3];
-uint8_t Producto[4][2];
+uint8_t Producto[3][3];
 int main(){
 
 
