@@ -22,7 +22,7 @@ for(i=0;i<4;i++)
 
 //Realizo el producto de AxC
 for(i=0;i<4;i++)
-	for(j=0;j<3;j++)
+	for(j=0;j<2;j++)
 		for(k=0;k<3;k++)
 			Producto[i][j]=Producto[i][j]+A[i][k]*C[k][j];
 
