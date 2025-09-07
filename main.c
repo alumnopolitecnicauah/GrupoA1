@@ -3,7 +3,7 @@
 //Definicion de Matrices
 uint8_t A[4][3]={0,1,2,3,4,5,6,7,8,9,10,11};
 uint8_t B[4][3]={12,13,14,15,16,17,18,19,20,21,22,23};
-uint8_t C[2][2]={24,25,26,27,28,29};
+uint8_t C[3][2]={24,25,26,27,28,29};
 
 // Almacenamiento de resultado
 uint8_t Suma[4][3];
